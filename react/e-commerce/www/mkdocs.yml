@@ -1,0 +1,95 @@
+# Project information
+site_name: Sushi Commerce
+site_description: Static e-commerce website generator.
+site_author: Sean Lawrence
+site_url: http://sushi-commerce.netlify.com
+
+# Repository
+repo_name: seanwlawrence/sushi-commerce
+repo_url: https://github.com/seanwlawrence/sushi-commerce
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2018 Sean Lawrence'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    primary: green
+    accent: white
+  feature:
+    tabs: false
+  font: false
+  favicon: assets/images/favicon.ico
+  logo: assets/images/logo.svg
+
+# Customization
+extra:
+  social:
+    - type: github
+      link: https://github.com/seanwlawrence/sushi-commerce
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+pages:
+  - Introduction: index.md
+  - Getting started: getting-started.md
+  - Adding store details: adding-store-details.md
+  - Creating products: creating-products.md
+  - Creating pages: creating-pages.md
+  - Creating posts: creating-posts.md
+  - Customizing your store: customizing-your-store.md
+  - Roadmap: roadmap.md
+  - Open source: open-source.md
+  - Contributing: contributing.md
+  - License: license.md
+
+# Google Analytics
+# google_analytics:uess_lang: false
+
+# Overrides
+
+extra_css: 
+  - assets/styles.css
+extra_javascript: 
+  - assets/scripts.js

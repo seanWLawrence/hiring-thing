@@ -1,0 +1,12 @@
+title: Sushi Commerce
+description: The best sushi on the planet.
+keywords:
+  - sushi
+  - sashimi
+logo: /images/logo.png
+socialMedia:
+  - href: 'https://instagram.com/sushi-commerce'
+    site: instagram
+googleAnalytics: UA-XXXXX-Y
+customCSS: /* CSS goes here */
+customJS: /* JavaScript goes here */
