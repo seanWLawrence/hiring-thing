@@ -40,13 +40,6 @@ Here's an example of testng a React component using the
 appraoch that I tend to stick with (not worrying about tesing state, props, etc.
 but only what the user sees and interacts with).
 
-## Ruby on Rails
-
-Found in `rails/rv-share-copy`
-
-Here's a simple CRUD demo that I scaffolding in a few hours while playing around
-with Ruby on Rails and React a while back.
-
 ## Additional notes on the code sample that you shared
 
 Likes
