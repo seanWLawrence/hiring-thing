@@ -156,22 +156,3 @@ class Example extends Component {
 	}
 }
 ```
-
-- The use of object spread looked to be incorrect, and based on research online
-  and attempts to recreate, I was getting the 'Expected property name' error
-  when using the syntax I thought I saw `{...{example: exampleValue}}` and am
-  used to seeing it like in the following example:
-
-```javascript
-// first object
-const example = {
-	id: 1234,
-	name: 'Demo',
-};
-
-// merge into second object
-// equivalent to Object.assign({}, example, {age: 26})
-const example2 = { ...example, age: 26 };
-
-console.log(example2); // { id: 1234, name: 'Demo', age: 26}
-```
